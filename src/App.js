@@ -1,5 +1,6 @@
 import './App.css';
-import GoalList from './components/GoalList';
+import GoalList from './components/GoalList/GoalList';
+import NewGoal from './components/NewGoal/NewGoal';
 
 const App = () => {
   const courseGoals = [{
@@ -17,6 +18,7 @@ const App = () => {
 
   return <div className='course-goals'>
     <h2>Course goals</h2>
+    <NewGoal />
     <GoalList goals={courseGoals} />
   </div>
 }
