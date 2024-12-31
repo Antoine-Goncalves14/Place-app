@@ -11,7 +11,7 @@ const NewGoal = ({ onAddGoal }) => {
       text: "My new goal!"
     }
 
-    onAddGoal(newGoal)
+    onAddGoal(newGoal);
 
   };
 
